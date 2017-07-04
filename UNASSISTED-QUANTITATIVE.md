@@ -1,6 +1,3 @@
-<style type="text/css">.main-container { max-width: 940px; margin-left: auto; margin-right: auto; } code { color: inherit; background-color: rgba(0, 0, 0, 0.04); } img { max-width:100%; height: auto; } .tabbed-pane { padding-top: 12px; } button.code-folding-btn:focus { outline: none; }</style>
-
-<div class="container-fluid main-container"><script>$(document).ready(function () { window.buildTabsets("TOC"); });</script>
 
 <div class="fluid-row" id="header">
 
@@ -49,4 +46,3 @@ This is an R Markdown document produced by [Raydonal Ospina](mailto:raydonal@de.
 
 </div>
 
-<script>// add bootstrap table styles to pandoc tables function bootstrapStylePandocTables() { $('tr.header').parent('thead').parent('table').addClass('table table-condensed'); } $(document).ready(function () { bootstrapStylePandocTables(); });</script> <script>(function () { var script = document.createElement("script"); script.type = "text/javascript"; script.src = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"; document.getElementsByTagName("head")[0].appendChild(script); })();</script>
