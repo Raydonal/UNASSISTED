@@ -3,22 +3,31 @@
 
 # UNASSISTED QUANTITATIVE EVALUATION OF DESPECKLING FILTERS
 
-#### _Luis Gomez <span class="math inline">\(^{1}\)</span>, Raydonal Ospina <span class="math inline">\(^{2}\)</span> and Alejandro C. Frery <span class="math inline">\(^{3}\)</span>_
+#### Luis Gomez$^{1}$, Raydonal Ospina$^{2}$ and Alejandro C. Frery$^{3}$
 
 </div>
 
-<span class="math inline">\(^{1}\)</span> Department of Electronic Engineering and Automation, University of Las Palmas de G.C., Spain; [luis.gomez@ulpgc.es](mailto:luis.gomez@ulpgc.es)
+$^{1}$Department of Electronic Engineering and Automation, University of Las Palmas de G.C., Spain; [luis.gomez@ulpgc.es](mailto:luis.gomez@ulpgc.es)
 
-<span class="math inline">\(^{2}\)</span> Departamento de Estatística. Universidade Federal de Pernambuco, Brazil; [rayospina@gmail.com](mailto:rayospina@gmail.com)
+$^{2}$Departamento de Estatística. Universidade Federal de Pernambuco, Brazil; [rayospina@gmail.com](mailto:rayospina@gmail.com)
 
-<span class="math inline">\(^{3}\)</span> LaCCAN – Laboratório de Computação Científica e Análise Numérica. Universidade Federal de Alagoas, Brazil; [acfrery@laccan.ufal.br](mailto:acfrery@laccan.ufal.br)
+$^{3}$  LaCCAN – Laboratório de Computação Científica e Análise Numérica. Universidade Federal de Alagoas, Brazil; [acfrery@laccan.ufal.br](mailto:acfrery@laccan.ufal.br)
 
 <div id="abstract" class="section level3">
 
 ### Abstract
 
-SAR (Synthetic Aperture Radar) imaging plays a central role in Remote Sensing due to, among other important features, its ability to provide high-resolution, day-and-night and almost weather-independent images. SAR images are affected from a granular contamination, speckle, that can be described by a multiplicative model. Many despeckling techniques have been proposed in the literature, as well as measures of the quality of the results they provide. Assuming the multiplicative model, the observed image <span class="math inline">\(Z\)</span> is the product of two independent fields: the backscatter <span class="math inline">\(X\)</span> and the speckle <span class="math inline">\(Y\)</span>. The result of any speckle filters is <span class="math inline">\(\widehat X\)</span>, an estimator of the backscatter <span class="math inline">\(X\)</span>, based solely on the observed data <span class="math inline">\(Z\)</span>. An ideal estimator would be the one for which the ratio of the observed image to the filtered one <span class="math inline">\(I=Z/\widehat X\)</span> is only speckle: a collection of independent identically distributed samples from Gamma variates. We, then, assess the quality of a filter by the closeness of <span class="math inline">\(I\)</span> to the hypothesis that it is adherent to the statistical properties of pure speckle. We analyze filters through the ratio image they produce with regards to first- and second-order statistics: the former check marginal properties, while the latter verifies lack of structure. A new quantitative image-quality index is then defined, and applied to state-of-the art despeckling filters. This new measure provides consistent results with commonly used quality measures (equivalent number of looks, PSNR, MSSIM, <span class="math inline">\(\beta\)</span> edge correlation, and preservation of the mean), and ranks the filters results also in agreement with their visual analysis.
-
+SAR (Synthetic Aperture Radar) imaging plays a central role in Remote Sensing due to, among other important features, its ability to provide high-resolution, day-and-night and almost weather-independent images.
+SAR images are affected from a granular contamination, speckle, that can be described by a multiplicative model. 
+Many despeckling techniques have been proposed in the literature, as well as measures of the quality of the results they provide. 
+Assuming the multiplicative model, the observed image $Z$ is the product of two independent fields: the backscatter $X$ and the speckle $Y$. 
+The result of any speckle filter is $\widehat X$, an estimator of the backscatter $X$, based solely on the observed data $Z$. 
+An ideal estimator would be the one for which the ratio of the observed image to the filtered one $I=Z/\widehat X$ is only speckle: a collection of independent identically distributed samples from Gamma variates. 
+We, then, assess the quality of a filter by the closeness of $I$ to the hypothesis that it is adherent to the statistical properties of pure speckle. 
+We analyze filters through the ratio image they produce with regards to first- and second-order statistics: the former check marginal properties, while the latter verifies lack of structure. 
+A new quantitative image-quality index is then defined, and applied to state-of-the-art despeckling filters. 
+This new measure provides consistent results with commonly used quality measures (equivalent number of looks, PSNR, MSSIM, $\beta$ edge correlation, and preservation of the mean), and ranks the filters results also in agreement with their visual analysis.
+We conclude our study showing that the proposed measure can be successfully used to optimize the (often many) parameters that define a speckle filter.
 </div>
 
 <div id="information" class="section level3">
